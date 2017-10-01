@@ -1594,7 +1594,7 @@ menu,
 	font: normal;
 	background-color: @menu_bg_color;
 	color: @menu_fg_color;
-	padding: 1px;
+	padding: 0px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: @menu_border_color;
@@ -1630,7 +1630,7 @@ menu button:disabled,
 menubar,
 .menubar {
 	border-style: none;
-	padding: 4px;
+	padding: 2px;
 	-GtkWidget-window-dragging: true;
 	background-image: -gtk-gradient (linear,
 	                  left top,
@@ -2540,11 +2540,11 @@ decoration {
 }
 
 window decoration {
-	border: solid 2px @insensitive_border_color;
+	border: solid 0px @insensitive_border_color;
 }
 
 tooltip.csd decoration {
-	border-radius: 5px;
+	border-radius: 0px;
 	box-shadow: 0 1px 5px @wm_shadow;
 }
 
