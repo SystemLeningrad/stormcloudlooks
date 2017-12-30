@@ -72,7 +72,7 @@ tooltip,
 tooltip.background,
 .tooltip,
 .tooltip.background {
-	padding: 4px;
+	padding: 3px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: @theme_tooltip_border_color;
@@ -191,7 +191,7 @@ statusbar frame {
 
 entry {
 	border-style: solid;
-	padding: 4px;
+	padding: 3px;
 	color: @entry_text_color;
 	background-color: @theme_base_color;
 }
@@ -1630,7 +1630,7 @@ menu button:disabled,
 menubar,
 .menubar {
 	border-style: none;
-	padding: 2px;
+	padding: 1px;
 	-GtkWidget-window-dragging: true;
 	background-image: -gtk-gradient (linear,
 	                  left top,
@@ -1645,7 +1645,7 @@ menubar menuitem,
 	border-style: solid;
 	border-width: 1px;
 	border-color: transparent;
-	padding: 3px 5px;
+	padding: 2px 3px;
 	background-color: transparent;
 }
 
@@ -1657,7 +1657,7 @@ menuitem button.flat:active {
 	border-style: solid;
 	border-width: 1px;
 	border-color: @menubar_menuitem_hover_border_color;
-	border-radius: 3px 3px 0 0;
+	border-radius: 2px 2px 0 0;
 	color: @menubar_menuitem_hover_color;
 	background-image: -gtk-gradient (linear,
 	                  left top,
@@ -1689,7 +1689,7 @@ menu menuitem,
 	border-width: 1px;
 	border-style: solid;
 	border-color: transparent;
-	padding: 4px;
+	padding: 3px;
 	background-color: @menu_bg_color;
 }
 

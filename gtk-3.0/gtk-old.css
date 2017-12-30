@@ -8,13 +8,13 @@
 
 @define-color theme_base_color #ffffff;
 
-@define-color theme_bg_color #e1e3f2;
+@define-color theme_bg_color #edeceb;
 @define-color theme_fg_color #000000;
 
-@define-color theme_selected_bg_color #4a4c66;
+@define-color theme_selected_bg_color #86abd9;
 @define-color theme_selected_fg_color #ffffff;
 
-@define-color theme_tooltip_bg_color #dfdfdf;
+@define-color theme_tooltip_bg_color #f5f5b5;
 @define-color theme_tooltip_fg_color #000000;
 
 @define-color theme_text_color #1a1a1a;
@@ -37,7 +37,7 @@
 /* Core colors are only used in the current file, as bases for other
    color declarations. */
 
-@define-color core_color_a #4a4c66; /* Core color for blue widgets in Clearlooks-Phenix. */
+@define-color core_color_a #a4c2e8; /* Core color for blue widgets in Clearlooks-Phenix. */
 @define-color core_color_b #edeceb; /* Core color for gray widgets in Clearlooks-Phenix. */
 
 /********************************************
@@ -211,10 +211,9 @@
  * menubar *
  ***********/
 
-@define-color menubar_gradient_a shade(@theme_bg_color, 1);
-@define-color menubar_gradient_b shade(@theme_bg_color, 0.98);
-@define-color menubar_gradient_c shade(@theme_bg_color, 0.94);
-@define-color menubar_gradient_d shade(@theme_bg_color, 0.76);
+@define-color menubar_gradient_a shade(@core_color_b, 0.99);
+@define-color menubar_gradient_b shade(@core_color_b, 0.98);
+@define-color menubar_gradient_c shade(@core_color_b, 0.96);
 
 /* hover */
 
@@ -406,14 +405,14 @@
  * toolbar *
  ***********/
 
-@define-color toolbar_border_top_color shade(@core_color_a, 0.82);
+@define-color toolbar_border_top_color shade(@core_color_b, 0.82);
 @define-color toolbar_inner_border_color @theme_base_color;
 @define-color toolbar_border_bottom_color @toolbar_border_top_color;
 
-@define-color toolbar_gradient_a shade(@core_color_a, 1.04);
-@define-color toolbar_gradient_b shade(@core_color_a, 1.01);
-@define-color toolbar_gradient_c @core_color_a;
-@define-color toolbar_gradient_d shade(@core_color_a, 0.97);
+@define-color toolbar_gradient_a shade(@core_color_b, 1.04);
+@define-color toolbar_gradient_b shade(@core_color_b, 1.01);
+@define-color toolbar_gradient_c @core_color_b;
+@define-color toolbar_gradient_d shade(@core_color_b, 0.97);
 
 /***********
  * tooltip *
