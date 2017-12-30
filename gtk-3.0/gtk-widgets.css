@@ -1630,7 +1630,7 @@ menu button:disabled,
 menubar,
 .menubar {
 	border-style: none;
-	padding: 1px;
+	padding: 1px 1px;
 	-GtkWidget-window-dragging: true;
 	background-image: -gtk-gradient (linear,
 	                  left top,
